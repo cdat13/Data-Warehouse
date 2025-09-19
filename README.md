@@ -5,7 +5,7 @@ Using an orchestration system by Dagster to build ETL pipeline inlcude three ste
 <img width="972" height="454" alt="image" src="https://github.com/user-attachments/assets/7d2ac880-6ef0-4217-ae3b-962dba7999d6" /> <br />
 # Data Layer <br />
 <img width="958" height="399" alt="image" src="https://github.com/user-attachments/assets/459eab80-bea4-4f3e-9087-8ad3c50934e6" /> <br />
-Bronze Layer: This is where raw data from CSV files is ingested. It contains the purest form of data, taken directly from the company’s database./> <br />
-Silver Layer: After undergoing cleaning, transformation, and validation, the data moves to the Silver Layer. Here, it is integrated with SCD - Type 2 to track historical changes./> <br />
+Bronze Layer: This is where raw data from CSV files is ingested. It contains the purest form of data, taken directly from the company’s database. <br />
+Silver Layer: After undergoing cleaning, transformation, and validation, the data moves to the Silver Layer. Here, it is integrated with SCD - Type 2 to track historical changes. <br />
 Gold Layer: This is the final stage, where the data is grouped and modeled following a Star Schema, filtering out the most valuable insights for the business.
 
